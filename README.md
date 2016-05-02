@@ -43,3 +43,11 @@ wiping any junk windows crap etc
 ALso when running the docker container you will have to run with --privileged
 
 docker run --name %NAME% -it --privileged -v %%localdir%%:%%linkdir%% %%imagename%%
+
+OPTIONS
+
+./symtomnt.sh    # Makes all the dirs and mounts
+./symtomnt.sh remove   # Removes all the created dirs
+
+
+
